@@ -1,0 +1,10 @@
+[project]
+name = "laminar-floor"
+version = "0.1.0"
+description = "Local procedural floor panel design and engineering screening"
+requires-python = ">=3.10,<3.11"
+dependencies = ["numpy==1.26.4", "scipy==1.15.3", "shapely==2.1.2", "trimesh", "manifold3d", "ezdxf", "PySide2==5.15.2.1", "pymeshlab>=2025.7"]
+[dependency-groups]
+dev = ["pytest"]
+[tool.pytest.ini_options]
+pythonpath = ["."]

@@ -19,7 +19,7 @@ LaminarFloor explores a specific design problem: a perforated floor panel that r
 
 The publication is based on **v6, built on 19 November 2026**, targeting **Windows 8.1 x64**. A previous iteration passed clean-Windows testing; that validation was not repeated for v6. A successful executable build is not a full acceptance test. Other operating systems are not claimed as supported by this release.
 
-The executable is not published yet, pending the source and dependency-license release decision.
+[Download the v6 preview](https://github.com/GerrardNesterov/laminar-floor/releases/tag/v6-preview). Save the EXE to a normal folder and launch it. Python and Qt are bundled. Application sources are available under **GPL-3.0**; see [LICENSE](../LICENSE), [build instructions](BUILD.md) and [third-party notices](../THIRD_PARTY_NOTICES.md).
 
 ## Limitations
 
